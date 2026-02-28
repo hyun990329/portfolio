@@ -80,7 +80,7 @@ export default function Work() {
                                     </svg>
                                     GitHub
                                 </a>
-                                <a href="#" target="_blank" rel="noreferrer" className="flex-1 inline-flex items-center justify-center gap-2 px-4 py-2.5 bg-white text-slate-900 border border-slate-200 rounded-xl hover:bg-slate-50 transition-all text-xs font-bold shadow-sm">
+                                <a href="https://hirehub-bn109bd4q-hyun990329s-projects.vercel.app/" target="_blank" rel="noreferrer" className="flex-1 inline-flex items-center justify-center gap-2 px-4 py-2.5 bg-white text-slate-900 border border-slate-200 rounded-xl hover:bg-slate-50 transition-all text-xs font-bold shadow-sm">
                                     <svg viewBox="0 0 24 24" className="w-4 h-4 fill-none stroke-current stroke-2">
                                         <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3" />
                                     </svg>
