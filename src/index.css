@@ -1,0 +1,84 @@
+@import "tailwindcss";
+
+@theme {
+  /* 컬러 값 설정 */
+  --color-primary: #306ee8;
+  --color-background-light: #ffffff;
+  --color-background-dark: #111621;
+  --color-surface-light: #f8fafc;
+  --color-surface-dark: #1a202c;
+
+  /* 폰트 패밀리 설정 */
+  --font-display: "Noto Sans KR", "Inter", sans-serif;
+  --font-body: "Noto Sans KR", "Inter", sans-serif;
+
+  /* 추가적인 Spacing (선택 사항) */
+  --spacing-128: 32rem;
+  --spacing-144: 36rem;
+
+  /* 기본 Border-radius 확장 */
+  --radius-DEFAULT: 0.25rem;
+  --radius-lg: 0.5rem;
+  --radius-xl: 0.75rem;
+  --radius-2xl: 1rem;
+  --radius-full: 9999px;
+
+  /* 애니메이션 설정 */
+  --animate-blob: blob 7s infinite;
+  --animate-fade-in-up: fadeInUp 1s ease-out forwards;
+
+  @keyframes blob {
+    0% {
+      transform: translate(0px, 0px) scale(1);
+    }
+
+    33% {
+      transform: translate(30px, -50px) scale(1.1);
+    }
+
+    66% {
+      transform: translate(-20px, 20px) scale(0.9);
+    }
+
+    100% {
+      transform: translate(0px, 0px) scale(1);
+    }
+  }
+
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(2rem);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+@layer utilities {
+  .animation-delay-2000 {
+    animation-delay: 2s;
+  }
+
+  .animation-delay-4000 {
+    animation-delay: 4s;
+  }
+
+  .pathway-line {
+    background: linear-gradient(to bottom, transparent, #cbd5e1 10%, #cbd5e1 90%, transparent);
+  }
+
+  .dark .pathway-line {
+    background: linear-gradient(to bottom, transparent, #334155 10%, #334155 90%, transparent);
+  }
+}
+
+@layer base {
+  body {
+    /* 모바일 ~ 데스크탑 반응형 텍스트 설정을 위해 antialiased, font-display, transition 등 기본값 부여 */
+    @apply bg-background-light text-slate-900 font-display antialiased selection:bg-primary/20 selection:text-primary transition-colors duration-300;
+  }
+}
