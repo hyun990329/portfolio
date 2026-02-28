@@ -93,9 +93,11 @@ export default function Work() {
                     {/* 차봄 */}
                     <article className="group bg-white rounded-3xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-[0_20px_40px_-15px_rgba(16,185,129,0.1)] hover:-translate-y-3 transition-all duration-500 flex flex-col translate-y-8 animate-fade-in-up animation-delay-4000">
                         <div className="aspect-video bg-emerald-50/20 flex items-center justify-center overflow-hidden border-b border-slate-100">
-                            <div className="text-emerald-700/50 text-sm font-medium group-hover:scale-110 transition-transform duration-700">
-                                차봄 Mobile Showcase
-                            </div>
+                            <img
+                                src="/스크린샷 2026-03-01 오전 1.05.44.png"
+                                alt="차봄 Mobile Showcase"
+                                className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700"
+                            />
                         </div>
 
                         <div className="p-8 flex-1 flex flex-col">
