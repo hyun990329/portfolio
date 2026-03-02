@@ -97,7 +97,7 @@ export default function Work() {
                             <img
                                 src="/스크린샷 2026-03-01 오전 1.05.44.png"
                                 alt="차봄 Mobile Showcase"
-                                className="w-auto h-full object-contain group-hover:scale-105 transition-transform duration-700"
+                                className="max-w-full max-h-full object-contain p-4 group-hover:scale-105 transition-transform duration-700"
                             />
                         </div>
 
