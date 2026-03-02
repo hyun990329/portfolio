@@ -14,7 +14,7 @@ export default function Work() {
                     <article className="group bg-white rounded-3xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-[0_20px_40px_-15px_rgba(48,110,232,0.15)] hover:-translate-y-3 transition-all duration-500 flex flex-col translate-y-8 animate-fade-in-up animation-delay-2000">
                         <div className="aspect-video bg-slate-50 flex items-center justify-center overflow-hidden border-b border-slate-100">
                             <img
-                                src="/스크린샷 2026-03-02 오후 10.53.36.png"
+                                src="/hirehub-showcase.png"
                                 alt="HireHub Showcase"
                                 className="max-w-full max-h-full object-contain p-4 group-hover:scale-105 transition-transform duration-700"
                             />
@@ -95,7 +95,7 @@ export default function Work() {
                     <article className="group bg-white rounded-3xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-[0_20px_40px_-15px_rgba(16,185,129,0.1)] hover:-translate-y-3 transition-all duration-500 flex flex-col translate-y-8 animate-fade-in-up animation-delay-4000">
                         <div className="aspect-video bg-emerald-50/20 flex items-center justify-center overflow-hidden border-b border-slate-100">
                             <img
-                                src="/스크린샷 2026-03-01 오전 1.05.44.png"
+                                src="/carbom-showcase.png"
                                 alt="차봄 Mobile Showcase"
                                 className="max-w-full max-h-full object-contain p-4 group-hover:scale-105 transition-transform duration-700"
                             />
