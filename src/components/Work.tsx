@@ -13,10 +13,11 @@ export default function Work() {
                     {/* HireHub */}
                     <article className="group bg-white rounded-3xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-[0_20px_40px_-15px_rgba(48,110,232,0.15)] hover:-translate-y-3 transition-all duration-500 flex flex-col translate-y-8 animate-fade-in-up animation-delay-2000">
                         <div className="aspect-video bg-slate-50 flex items-center justify-center overflow-hidden border-b border-slate-100">
-                            {/* 실제 이미지가 없을 때의 placeholder */}
-                            <div className="text-slate-400 text-sm font-medium group-hover:scale-110 transition-transform duration-700">
-                                HireHub Showcase
-                            </div>
+                            <img
+                                src="/스크린샷 2026-03-02 오후 10.53.36.png"
+                                alt="HireHub Showcase"
+                                className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700"
+                            />
                         </div>
 
                         <div className="p-8 flex-1 flex flex-col">
@@ -80,7 +81,7 @@ export default function Work() {
                                     </svg>
                                     GitHub
                                 </a>
-                                <a href="#" target="_blank" rel="noreferrer" className="flex-1 inline-flex items-center justify-center gap-2 px-4 py-2.5 bg-white text-slate-900 border border-slate-200 rounded-xl hover:bg-slate-50 transition-all text-xs font-bold shadow-sm">
+                                <a href="https://hirehub-beryl.vercel.app/" target="_blank" rel="noreferrer" className="flex-1 inline-flex items-center justify-center gap-2 px-4 py-2.5 bg-white text-slate-900 border border-slate-200 rounded-xl hover:bg-slate-50 transition-all text-xs font-bold shadow-sm">
                                     <svg viewBox="0 0 24 24" className="w-4 h-4 fill-none stroke-current stroke-2">
                                         <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3" />
                                     </svg>
