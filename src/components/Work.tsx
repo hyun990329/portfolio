@@ -16,7 +16,7 @@ export default function Work() {
                             <img
                                 src="/hirehub-showcase.png"
                                 alt="HireHub Showcase"
-                                className="max-w-full max-h-full object-contain p-4 group-hover:scale-105 transition-transform duration-700"
+                                className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700"
                             />
                         </div>
 
@@ -97,7 +97,7 @@ export default function Work() {
                             <img
                                 src="/carbom-showcase.png"
                                 alt="차봄 Mobile Showcase"
-                                className="max-w-full max-h-full object-contain p-4 group-hover:scale-105 transition-transform duration-700"
+                                className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700"
                             />
                         </div>
 
