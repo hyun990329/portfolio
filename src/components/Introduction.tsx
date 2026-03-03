@@ -47,7 +47,7 @@ export default function Introduction() {
                         <div>
                             <h3 className="font-semibold text-slate-900 text-sm mb-1 uppercase tracking-wider opacity-60">Core Value</h3>
                             <p className="text-slate-600 text-sm leading-relaxed break-keep font-medium">
-                                단순히 돌아가는 코드를 넘어, <br className="hidden md:block"></br> 사용자 경험(UX)과 성능 최적화 사이의 균형을 끊임없이 고민합니다.
+                                단순히 돌아가는 코드를 넘어, <br className="hidden md:block"></br> 사용자 경험과 성능 최적화 사이의 균형을 끊임없이 고민합니다.
                             </p>
                         </div>
                     </div>

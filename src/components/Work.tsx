@@ -5,7 +5,7 @@ export default function Work() {
                 <div className="mb-16 text-center md:text-left translate-y-4 animate-fade-in-up">
                     <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-slate-900 mb-4">Projects</h2>
                     <p className="text-slate-500 max-w-2xl leading-relaxed">
-                        실제 비즈니스 문제를 정의하고, <br className="md:hidden" /> 기술로 해결한 주요 프로젝트들을 소개합니다.
+                        비즈니스 문제를 정의하고, <br className="md:hidden" /> 기술로 완성한 주요 프로젝트들을 소개합니다.
                     </p>
                 </div>
 
@@ -22,7 +22,7 @@ export default function Work() {
 
                         <div className="p-8 flex-1 flex flex-col">
                             <div className="flex items-center justify-between mb-4">
-                                <span className="text-xs font-mono text-slate-400">2025</span>
+                                <span className="text-xs font-mono text-slate-400">2025.10 ~ 2025.12</span>
                                 <span className="px-3 py-1 rounded-full bg-blue-50 text-blue-600 text-[11px] font-bold uppercase tracking-wider">Web Platform</span>
                             </div>
 
@@ -103,7 +103,7 @@ export default function Work() {
 
                         <div className="p-8 flex-1 flex flex-col">
                             <div className="flex items-center justify-between mb-4">
-                                <span className="text-xs font-mono text-slate-400">2025</span>
+                                <span className="text-xs font-mono text-slate-400">2025.12 ~ 2026.2</span>
                                 <span className="px-3 py-1 rounded-full bg-emerald-50 text-emerald-600 text-[11px] font-bold uppercase tracking-wider">Mobile App</span>
                             </div>
 
